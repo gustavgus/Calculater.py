@@ -1,0 +1,16 @@
+
+num1 = float(input("write the first number: "))
+rt = input("enter operator:")
+num2 = float(input("write the second number: "))
+
+if rt == "+":
+    print(num1 + num2)
+elif rt == "-":
+    print(num1 - num2)
+elif rt == "/":
+    print(num1 / num2)
+elif rt == "*":
+    print(num1 * num2)
+else:
+    print("unavaible operator")
+
